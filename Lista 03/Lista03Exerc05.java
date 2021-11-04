@@ -3,14 +3,14 @@ public class Lista03Exerc05 {
 	public static void main (String[] args) {
 		
 		for(int a=0; a<=1000; a++){
-			if(metodo(a)>0)System.out.print(metodo(a)+" - ");
+			if(primo(a)>0)System.out.print(primo(a)+" - ");
 			
 			//System.out.print(a+" - ");
 		}
 		
 	}
 	
-	static int metodo (int b){
+	static int primo (int b){
 		
 		int cont=0;
 		

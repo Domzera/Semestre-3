@@ -22,10 +22,10 @@ public class Lista03Exerc04 {
 		
 		System.out.println("\nAs notas usadas para a mediaforam "+
 							a[1]+" e "+a[2]
-							+"\nA media eh: "+metodo(a[1],a[2]));
+							+"\nA media eh: "+notas(a[1],a[2]));
 	}
 	
-	static double metodo (double d,double e){
+	static double notas (double d,double e){
 		return (d+e)/2;
 	}
 }

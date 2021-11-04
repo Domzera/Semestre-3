@@ -12,13 +12,13 @@ public class Lista03Exerc11 {
 		
 		if(a<6){
 			System.out.println("\nErro! Valor invalido");
-		}else if(metodo(a)==true){
+		}else if(perfeito(a)==true){
 			System.out.println("\nO numero "+a+" eh perfeito");
 			}else{System.out.println("\nO numero "+a+" NAU eh perfeito");}
 		
 	}
 	
-	static boolean metodo (int a){
+	static boolean perfeito (int a){
 		int div=2,cont=0;
 		boolean primo;
 		

@@ -11,10 +11,10 @@ public class Lista03Exerc12 {
 		a=leia.nextInt();
 		
 		if(a<6){System.out.print("Erro! Valor invalido");
-		}else{metodo(a);}
+		}else{perfeitos(a);}
 	}
 	
-	static void metodo (int a){
+	static void perfeitos (int a){
 		int primo=0;
 
 		for(int i=1;i<=a;i++){

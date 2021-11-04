@@ -18,11 +18,11 @@ public class Lista03Exerc10 {
 			array[i]=leia.nextInt();
 		}
 		
-		System.out.println("\n\nRetorno "+metodo(array));
+		System.out.println("\n\nRetorno "+mmc(array));
 		
 	}
 	
-	static int metodo (int a[]){
+	static int mmc (int a[]){
 		int mmc=1,div=2,cont1=1,cont2=0,cont3=0,verifica=0;
 		int conta[]=new int[a.length];
 		

@@ -18,10 +18,10 @@ public class Lista03Exerc09 {
 			a=b;
 			b=c;
 		}
-		System .out.println("\nO valor do MMC eh: "+metodo(a,b));
+		System .out.println("\nO valor do MMC eh: "+mmc(a,b));
 	}
 	
-	static int metodo (int a,int b){
+	static int mmc (int a,int b){
 		int mmc=1,div=2,cont=0,cont2=0;
 
 		while(cont2==0){

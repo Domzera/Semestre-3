@@ -10,10 +10,10 @@ public class Lista03Exerc01 {
 		System.out.println("Entre com a temperatura em Celsius");
 		a=leia.nextInt();
 
-		System.out.println("A temperatura em Fahrenheit eh: "+metodo(a));
+		System.out.println("A temperatura em Fahrenheit eh: "+conversao(a));
 	}
 	
-	static int metodo (int b){
+	static int conversao (int b){
 		
 		return ((9*b/5)+32);
 	}

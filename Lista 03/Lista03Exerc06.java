@@ -19,7 +19,7 @@ public class Lista03Exerc06 {
 			b=c;
 		}
 
-		int primos[]= metodo(a,b);
+		int primos[]= intervaloPrimo(a,b);
 		
 		System.out.println("\nOs numeros sau:");
 		
@@ -30,7 +30,7 @@ public class Lista03Exerc06 {
 	
 	
 	
-	static int[] metodo (int d,int e){
+	static int[] intervaloPrimo (int d,int e){
 		int cont=0,cont1=0,c=0;
 		c=d;
 		

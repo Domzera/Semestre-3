@@ -49,9 +49,9 @@ public class Lista01Exerc05 {
 		if(d==0)
 			return "x = "+(-b/(2*a));
 		if(d>0){
-			saida="x\' = "+((-b+Math.sqrt(d)/(2*a)));
+			saida="x\' = "+String.format("%.2f",(-b+Math.sqrt(d))/(2*a));
 			saida +="\n";
-			saida +="x\'\' ="+((-b-Math.sqrt(d))/(2*a));	
+			saida +="x\'\' ="+String.format("%.2f",(-b-Math.sqrt(d))/(2*a));	
 		}
 		return saida;
 	}

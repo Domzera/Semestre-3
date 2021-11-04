@@ -19,17 +19,11 @@ public class Lista03Exerc08 {
 			arrayz[i]=leia.nextInt();
 		}
 		
-		System.out.println("\n\nRetorno "+metodo(arrayz));
+		System.out.println("\n\nRetorno "+mdc(arrayz));
 		
 	}
 	
-	/*
-	 * Testar com tres pares ou tres impares
-	 * 
-	 * Só funcion com tres = 10 15 20
-	 */
-	
-	static int metodo (int a[]){
+	static int mdc (int a[]){
 		int mdc=1,div=2,cont1=1,cont2=0;
 		int conta[]=new int[a.length];
 		

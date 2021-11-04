@@ -9,11 +9,13 @@ public class Lista03Exerc14 {
 		System.out.println("Entre com o valor");
 		a=leia.nextInt();
 		
-		System.out.print(">>"+metodo(a));
+		if(a<0)a=a*-1;
+		
+		System.out.print(">>"+Integer.parseInt(inverte(a)));
 		
 	}
 	
-	static String metodo (int a){
+	static String inverte (int a){
 		String b=String.valueOf(a);
 		String c="";
 		
